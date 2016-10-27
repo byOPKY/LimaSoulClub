@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+	margin: 0  !important;
+}
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+.img{
+	width:6%;
+}
+.pd-1{
+	padding: 1%;
+}
+.bg-home{
+	background-image: url("../img/longplay3.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+	background-size: 100%;
+	padding: 20% 10%;
+}
+.section{
+	padding: 0 !important;
+}
+.cuadro{
+	
+	padding: 2%
+}
+.titulos{
+	padding: 45% 10%;
+	color: white;
+}
+.pd-2{
+	padding: 2% !important;
+}
+.musica{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.slider{
+	height: 600px !important;
+}
+
+#drop{
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	background-color: black;
+	position: relative;
+	margin: 0 auto;
+	border:13px solid aquamarine;
+	margin-bottom: 30px;
+}
+#seccionPrimera{
+	text-align: center;
+	padding: 100px 0;
+	background-color: black;
+}
+#drop p{
+	color: aquamarine;
+	font-size: 40px;
+	word-wrap: break-word;
+	position: absolute;
+	font-family: "Bangers";
+	text-align: center;
+	top: 80px;
+}
+.discos{
+	background-size: 200px 200px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 10px;
+}
+#drag1{
+	background-image: url("../img/drag1.jpg");
+}
+#drag2{
+	background-image: url("../img/drag2.jpg");
+}
+#drag3{
+	background-image: url("../img/drag3.jpg");
+}
+#drag4{
+	background-image: url("../img/drag4.jpg");
+}
+#drag5{
+	background-image: url("../img/drag5.jpg");
+}
+#drag6{
+	background-image: url("../img/drag6.jpg");
+}
+
+
+@media (max-width: 800px) {
+	*{
+	box-sizing: border-box;
+	margin: 0  !important;
+}
+	
+	.bg.home{
+	height: 380px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+}
+}
+@media (max-width: 600px) {
+	*{
+	box-sizing: border-box;
+	margin: 0  !important;
+}
+	.
+	.bg.home{
+	height: 350px;
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+}
