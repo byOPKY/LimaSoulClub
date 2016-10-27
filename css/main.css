@@ -1,11 +1,17 @@
 *{
 	box-sizing: border-box;
 	margin: 0  !important;
+	font-family: 'Arya', sans-serif;
 }
 header{
 	position: fixed;
 	width: 100%;
 	z-index: 99;
+}
+.fraseLogo{
+	font-family: "Modak", cursive;
+	color: white;
+	font-size: 7em;
 }
 .img{
 	width:6%;
@@ -24,6 +30,10 @@ header{
 }
 .section{
 	padding: 0 !important;
+	
+}
+#about{
+	background-color: #F9F5B9;
 }
 .cuadro{
 	
@@ -32,9 +42,16 @@ header{
 .titulos{
 	padding: 45% 10%;
 	color: white;
+	font-family: "Chicle", cursive;
+}
+.bolder{
+	font-weight: bolder;
 }
 .pd-2{
 	padding: 2% !important;
+}
+.mt-2{
+	margin-top: 2% !important;
 }
 .musica{
 	text-align: center;
@@ -42,7 +59,7 @@ header{
 	font-size: 20px;
 }
 .slider{
-	height: 600px !important;
+	height: 650px !important;
 }
 
 #drop{
@@ -52,22 +69,18 @@ header{
 	background-color: black;
 	position: relative;
 	margin: 0 auto;
-	border:13px solid aquamarine;
-	margin-bottom: 30px;
-}
-#seccionPrimera{
-	text-align: center;
-	padding: 100px 0;
-	background-color: black;
+	border:13px solid white;
+	left: 42%;
 }
 #drop p{
-	color: aquamarine;
+	color: white;
 	font-size: 40px;
 	word-wrap: break-word;
 	position: absolute;
-	font-family: "Bangers";
+	
 	text-align: center;
-	top: 80px;
+	top: 40px;
+
 }
 .discos{
 	background-size: 200px 200px;
@@ -95,32 +108,73 @@ header{
 #drag6{
 	background-image: url("../img/drag6.jpg");
 }
+#drag7{
+	background-image: url("../img/drag7.jpg");
+}
+#drag8{
+	background-image: url("../img/drag8.jpg");
+}
+#drag9{
+	background-image: url("../img/drag9.jpg");
+}
+#drag10{
+	background-image: url("../img/drag10.jpg");
+}
 
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
 	*{
-	box-sizing: border-box;
-	margin: 0  !important;
-}
-	
-	.bg.home{
-	height: 380px;
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+		box-sizing: border-box;
+		margin: 0  !important;
+		}
+	.pd-1{
+		padding: 0;
 	}
-}
-}
+	.titulos{
+		padding: 18% 10%;
+	 	}
+	.fraseLogo{
+		padding-top: 100%;
+		font-size: 3em;
+		}
+	.bg-home{
+		height: 600px;
+		background-size: 200%;
+		background-position: center;
+		background-repeat: no-repeat;
+	
+		}
+	#seccionMusica{
+		display: none;
+			}
+	}
+	.img{
+	max-width:20%;
+		}
 @media (max-width: 600px) {
 	*{
 	box-sizing: border-box;
 	margin: 0  !important;
-}
-	.
-	.bg.home{
-	height: 350px;
-	background-size: 50%;
+		}
+
+	.titulos{
+		padding: 18% 10%;
+	 	}
+	.fraseLogo{
+		padding-top: 80%;
+		font-size: 3em;
+		}
+	.bg-home{
+	height: 580px;
+	background-size: 280%;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
+	#seccionMusica{
+		display: none;
+			}
+	}
+	.slider{
+	height: 630px !important;
+}
 }

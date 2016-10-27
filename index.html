@@ -9,53 +9,56 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arya" rel="stylesheet">
 </head>
 <body>
 	<header class="pd-1 black">
 		<nav>
 			<div class="nav-wrapper black">
-		      <a href="index.html"><img src="img/logo2.jpg" alt="logo" class="img right"> </a>
+		      <a href="#home"><img src="img/logo2.jpg" alt="logo" class="img right"> </a>
 		      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul id="nav-mobile" class="left hide-on-med-and-down">
-		      	<li><a href="index.html">About Us</a></li>
-		    	<li><a href="concurso.html">Galería</a></li>
-		    	<li><a href="galeria.html">Música</a></li>
+		      	<li><a href="#about">About Us</a></li>
+		    	<li><a href="#slider">Galería</a></li>
+		    	<li><a href="#seccionMusica">Música</a></li>
 		      </ul>
 			</div>
 		</nav>
-		<ul class="side-nav" id="slide-out">
-		    <li><a href="index.html">About Us</a></li>
-		    <li><a href="concurso.html">Galería</a></li>
-		    <li><a href="galeria.html">Música</a></li>
-		</ul>
 	</header>
-	<div class="section blue">
+	<ul class="side-nav" id="slide-out">
+		    <li><a href="#about">About Us</a></li>
+		    <li><a href="#slider">Galería</a></li>
+		    <li><a href="#seccionMusica">Música</a></li>
+	</ul>
+	<div class="section black" id="home">
 		<div class="row">
-			<div class="bg-home center-align">
+			<div class="bg-home center-align" >
 				<div class="cuadro">
-					<h1>Lima Soul Club</h1>
-					<a class="waves-effect waves-light btn-large red">Button</a>
+					<h1 class="fraseLogo">LIMA SOUL CLUB</h1>
+					<a class="waves-effect waves-light btn-large blue" href="#seccionMusica">Música</a>
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="about">
 			<div class="col l6 s12 black center-align">
 				<h3 class="titulos">About us</h3>
 			</div>
 			<div class="col l6 s12 pd-2">
-				<p>Esta es la página oficial del LIMA SOUL CLUB. Club bimestral residente en Lima.</p>
+				<p class="center-align bolder">¡Mods, Scooterists, Rudeboys, Skinheads, Soul Kids, Suedeheads son bienvenidos!</p>
+				<p class="center-align bolder">¡¡¡EXCLUSIVAMENTE DISCOS DE VINILO!!!</p>
+				<br>
+				<p>Esta es la página oficial del <span class="bolder"> LIMA SOUL CLUB</span>. Club bimestral residente en Lima.</p>
 				<p>Lugar donde los amantes de la música realizada en los años 50s, 60s y 70s se encuentran para bailar en cada una de las allnighters que realizamos.</p>
 				<br>
 				<p class="musica">SOUL / R&B / NORTHERN SOUL / JAZZ / MOD / SKA / ROCKSTEADY / REGGAE</p> <p class="center-align">son los ritmos que te encontrarás si deseas acompañarnos.</p>
 				<br>
-				<p>¡Mods, Scooterists, Rudeboys, Skinheads, Soul Kids, Suedeheads son bienvenidos!</p>
-				<p>¡¡¡EXCLUSIVAMENTE DISCOS DE VINILO!!!</p>
-				<br>
-				<ul>Misión
+				<ul class="bolder">Misión
 					<li>Divulgar los sonidos de los años 50's, 60's y 70's!!!!</li>
 				</ul>
 				<br>
-				<ul class="center-align">
+				<ul class="center-align bolder">
 					EQUIPO: 
 					<br>
 					<li>Mario Cordova - Tin Soldier</li>
@@ -65,12 +68,12 @@
 					<li>Marco Caballero - El Frenético</li>
 				</ul>
 				<br>
-				<p>Propiedad y autoría</p>
-				<h5>LIMA SOUL CLUB</h5>
+				<p class="bolder">Propiedad y autoría</p>
+				<h5 class="bolder">LIMA SOUL CLUB</h5>
 			</div>
 		</div>
-		<div class="row black">
-			<div class="slider">
+		<div class="row " id="slider">
+			<div class="slider" >
 			    <ul class="slides">
 			      <li>
 			        <img src="img/dj5.jpg" class="img-slider"> 
@@ -103,25 +106,29 @@
 			    </ul>
 		  	</div>
 		</div>
-		<div class="row">
-			<div id="seccionPrimera" class="col s6">
+		<div class="row center-align mt-2 blue">
+			<div id="seccionMusica">
                 <div id="drop">
                     <p id="parrafo">Arrastra tu canción</p>
                 </div>
-                <div class="row">
-                    <div class="col s6">
+                <div class="row mt-2">
+                    <div>
                         <div class="discos" id="drag1" draggable="true"></div>
                         <div class="discos" id="drag2" draggable="true"></div>
                         <div class="discos" id="drag3" draggable="true"></div>
+                        <div class="discos" id="drag4" draggable="true"></div>
+                        <div class="discos" id="drag5" draggable="true"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s6">
-                        <div class="discos" id="drag4" draggable="true"></div>
-                        <div class="discos" id="drag5" draggable="true"></div>
+                    <div>
                         <div class="discos" id="drag6" draggable="true"></div>
+                        <div class="discos" id="drag7" draggable="true"></div>
+                        <div class="discos" id="drag8" draggable="true"></div>
+                        <div class="discos" id="drag9" draggable="true"></div>
+                        <div class="discos" id="drag10" draggable="true"></div>
                     </div>
-                </div>
+                </div>  
             </div>
 		</div>
 		<div class="hidden">
